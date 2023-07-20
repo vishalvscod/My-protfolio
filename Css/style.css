@@ -100,8 +100,8 @@ header nav a.active {
 }
 
 .rightpart img {
-    width: 60%;
-    float: right;
+    width: 90%;
+    /* float: right; */
     border: 5px solid #00ABAE;
     border-radius: 50%;
     margin-right: 3.2vw;
@@ -227,6 +227,29 @@ button a{
    margin-top: 1vw;
    margin-bottom: 1vw;
 }
+
+@media screen and (max-width:800px){
+    section.hero {
+        
+        flex-direction: column-reverse;
+        
+    }
+
+    main .about {
+        flex-direction: column;
+    
+    }
+
+    .project-item {
+        flex-direction: column;
+    }
+
+    .project-scst img {
+        margin-top: 2vw;
+        width: 80%;
+    }
+}
+
 
 
 
