@@ -91,6 +91,7 @@ header nav a:hover {
 header nav a.active {
     border-bottom: 2px solid black;
 }
+/* header section*/
 
 /* hero section*/
 
@@ -247,6 +248,10 @@ button a{
     .project-scst img {
         margin-top: 2vw;
         width: 80%;
+    }
+
+    header nav a {
+        margin-right: 0.5rem;
     }
 }
 
